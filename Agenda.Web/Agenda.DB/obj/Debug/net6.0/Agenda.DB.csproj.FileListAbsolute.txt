@@ -1,0 +1,6 @@
+C:\Agenda\Agenda.Web\Agenda.DB\obj\Debug\net6.0\Agenda.DB.csproj.AssemblyReference.cache
+C:\Agenda\Agenda.Web\Agenda.DB\obj\Debug\net6.0\Agenda.DB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Agenda\Agenda.Web\Agenda.DB\obj\Debug\net6.0\Agenda.DB.AssemblyInfoInputs.cache
+C:\Agenda\Agenda.Web\Agenda.DB\obj\Debug\net6.0\Agenda.DB.AssemblyInfo.cs
+C:\Agenda\Agenda.Web\Agenda.DB\obj\Debug\net6.0\Agenda.DB.csproj.CoreCompileInputs.cache
+C:\Agenda\Agenda.Web\Agenda.DB\obj\Debug\net6.0\Agenda.DB.MvcApplicationPartsAssemblyInfo.cache
