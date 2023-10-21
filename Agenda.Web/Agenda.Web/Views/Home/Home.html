@@ -13,14 +13,46 @@
                         <tr class="table-row">
                             <td class="left-cell">
                                 <div class="left-cell-content">
-                                    <span class="material-symbols-outlined home-icon">
-                                        home
-                                    </span>
+                                    <table class="menu-grid">
+                                        <tbody>
+                                            <tr class="menu-row">
+                                                <td class="menu-cell">
+                                                    <button align="center" class="material-symbols-outlined home-icon" name="Inicio">
+                                                        home
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr class="menu-row">
+                                                <td class="menu-cell">
+                                                    <button align="center" class="material-symbols-outlined home-icon" name="Criar contato">
+                                                        add
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr class="menu-row">
+                                                <td class="menu-cell">
+                                                    <button align="center" class="material-symbols-outlined home-icon" name="Buscar">
+                                                        search
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr class="menu-row">
+                                                <td class="menu-cell">
+                                                    <button align="center" class="material-symbols-outlined home-icon" name="Configurações">
+                                                        settings
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </td>
                             <td class="right-cell">
                                 <div class="right-cell-content">
+                                    <div class="gridTitulo" align="center"><span class="titulo">Contatos</span></div>
+                                    <div class="rootClass" id="root">
 
+                                    </div>
                                 </div>
                             </td>
                         </tr>
@@ -28,11 +60,17 @@
                 </table>
             </div>
         </div>
+        <script href="/Scripts/HomeScript"></script>
+        <script>
+
+        </script>
     </body>
 </html>
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
     * {
         background: linear-gradient(to right, #f29464, #f3545a);
+        font-family: 'Roboto', sans-serif;
     }
 
     .grid {
@@ -44,7 +82,7 @@
         width: calc(100% - 5rem);
         height: calc(100% - 3rem);
         background: white !important;
-        border-radius: 30px;
+        border-radius: 20px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -74,17 +112,21 @@
         height: 100%;
         background: white !important;
         border-right: 1px solid #f3545a;
+        vertical-align:top;
+        padding-right: 10px
     }
 
     .right-cell {
         width: 95%;
         height: 100%;
-
+        background: white !important;
+        padding-left: 10px;
+        vertical-align: top;
     }
     .left-cell-content {
         background: white !important;
         width: 100%;
-        align-items: center
+        display: block
     }
     .material-symbols-outlined {
         font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
@@ -93,5 +135,44 @@
         background: white !important;
         color: #6ee7c5;
         width: 100%;
+        line-height:1.8;
+        border:transparent
+    }
+    .menu-grid {
+        position:relative;
+        top:10px;
+        background: white !important;
+        width: 100%;
+    }
+    .menu-row {
+        background: white !important;
+    }
+    .menu-cell {
+        background: white !important;
+    }
+
+    .right-cell-content {
+        height: 100%;
+        background: white !important;
+        position: relative;
+    }
+    .rootClass {
+        position: absolute;
+        top: 10%;
+        bottom: 5%;
+        height: 85%;
+        width:100%;
+        background: white !important;
+    }
+    .gridTitulo {
+        height: 10%;
+        width: 100%;
+        background: white !important;
+    }
+    .titulo {
+        position: relative;
+        top: 40%;
+        font-size: 40px;
+        background: white !important;
     }
 </style>

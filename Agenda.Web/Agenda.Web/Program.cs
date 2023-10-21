@@ -17,4 +17,12 @@ app.MapGet("/", async context =>
     await context.Response.WriteAsync(content);
 });
 
+app.MapGet("/Scripts/HomeScript", async context =>
+{
+    var filePath = Path.Combine(builder.Environment.ContentRootPath, "scripts", "HomeScript.js");
+    var content = await File.ReadAllTextAsync(filePath);
+    context.Response.ContentType = "script";
+    await context.Response.WriteAsync(content);
+});
+
 app.Run();

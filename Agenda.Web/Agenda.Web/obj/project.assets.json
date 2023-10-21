@@ -8418,19 +8418,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\NelsonSilva-ÚnicoRH\\.nuget\\packages\\": {}
+    "C:\\Users\\autologon\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Agenda\\Agenda.Web\\Agenda.Web\\Agenda.Web.csproj",
+      "projectUniqueName": "C:\\Users\\autologon\\Source\\Repos\\Agenda\\Agenda.Web\\Agenda.Web\\Agenda.Web.csproj",
       "projectName": "Agenda.Web",
-      "projectPath": "C:\\Agenda\\Agenda.Web\\Agenda.Web\\Agenda.Web.csproj",
-      "packagesPath": "C:\\Users\\NelsonSilva-ÚnicoRH\\.nuget\\packages\\",
-      "outputPath": "C:\\Agenda\\Agenda.Web\\Agenda.Web\\obj\\",
+      "projectPath": "C:\\Users\\autologon\\Source\\Repos\\Agenda\\Agenda.Web\\Agenda.Web\\Agenda.Web.csproj",
+      "packagesPath": "C:\\Users\\autologon\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\autologon\\Source\\Repos\\Agenda\\Agenda.Web\\Agenda.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\NelsonSilva-ÚnicoRH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\autologon\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8438,9 +8438,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/unicorh/35c2832a-1981-4b0b-b928-2862368a0efa/_packaging/UnicoRH.Librarys%40Local/nuget/v3/index.json": {},
-        "https://pkgs.dev.azure.com/unicorh/uRegistro/_packaging/UnicoRH/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
@@ -8490,7 +8488,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
