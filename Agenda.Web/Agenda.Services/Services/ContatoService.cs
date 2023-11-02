@@ -12,24 +12,28 @@ namespace Agenda.Services.Services
         {
             _mongoDBService = mongoDBService;
         }
-
+        public IEnumerable<Contato> BuscarTodos()
+        {
+            IEnumerable<Contato> retorno = _mongoDBService.GetContatos();
+            return retorno;
+        }
         public Contato Criar(Contato contato)
         {
             var contatoCriado = _mongoDBService.CreateContato(contato);
             return contatoCriado;
         }
-        public Contato Buscar(string Id)
+        public Contato Buscar(Guid Id)
         {
-            var contatoEncontrado = _mongoDBService.GetContatoById(Id);
+            var contatoEncontrado = _mongoDBService.GetContatoById(Id.ToString());
             return contatoEncontrado;
         }
-        public void Atualizar(string Id, Contato contato)
+        public void Atualizar(Guid Id, Contato contato)
         {
-            _mongoDBService.UpdateContato(Id, contato);
+            _mongoDBService.UpdateContato(Id.ToString(), contato);
         }
-        public void Deletar(string Id)
+        public void Deletar(Guid Id)
         {
-            _mongoDBService.RemoveContato(Id);
+            _mongoDBService.RemoveContato(Id.ToString());
         }
     }
 }

@@ -3,176 +3,54 @@
 <head>
     <title>Agenda</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="/Views/CSS/Home.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
-    <body>
-        <div class="grid">
-            <div class="modal">
-                <table cellpadding="0" cellspacing="0" class="table-grid">
-                    <tbody>
-                        <tr class="table-row">
-                            <td class="left-cell">
-                                <div class="left-cell-content">
-                                    <table class="menu-grid">
-                                        <tbody>
-                                            <tr class="menu-row">
-                                                <td class="menu-cell">
-                                                    <button align="center" class="material-symbols-outlined home-icon" name="Inicio">
-                                                        home
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr class="menu-row">
-                                                <td class="menu-cell">
-                                                    <button align="center" class="material-symbols-outlined home-icon" name="Criar contato">
-                                                        add
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr class="menu-row">
-                                                <td class="menu-cell">
-                                                    <button align="center" class="material-symbols-outlined home-icon" name="Buscar">
-                                                        search
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr class="menu-row">
-                                                <td class="menu-cell">
-                                                    <button align="center" class="material-symbols-outlined home-icon" name="Configurações">
-                                                        settings
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </td>
-                            <td class="right-cell">
-                                <div class="right-cell-content">
-                                    <div class="gridTitulo" align="center"><span class="titulo">Contatos</span></div>
-                                    <div class="rootClass" id="root">
+<body>
+    <div class="content">
+        <div class="Titulo">Agenda</div>
+        <table class="Data">
+            <tr class="Linha">
+                <td class="Esquerda">
+                    <div class="Menu">
+                        <button class="material-symbols-outlined centralize-icon">
+                            search
+                        </button>
+                        <br />
+                        <button class="material-symbols-outlined centralize-icon">
+                            home
+                        </button>
+                        <br />
+                        <button class="material-symbols-outlined centralize-icon">
+                            add
+                        </button>
+                    </div>
+                </td>
+                <td class="Direita">
+                    <div class="Root">
+                        <div class="itemLista" id="">
+                            <div class="labelNome">NomeContato</div>
+                            <div class="sectionBotao" align="right">
+                                <button class="material-symbols-outlined buttonList editar">
+                                    edit
+                                </button>
+                                <button class="material-symbols-outlined buttonList deletar">
+                                    delete
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script src="/Scripts/HomeScript.js"></script>
+    <script>
+        var Instance = new HomeComponent()
 
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <script href="/Scripts/HomeScript"></script>
-        <script>
-
-        </script>
-    </body>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Código JavaScript aqui
+        });
+    </script>
+</body>
 </html>
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-    * {
-        background: linear-gradient(to right, #f29464, #f3545a);
-        font-family: 'Roboto', sans-serif;
-    }
-
-    .grid {
-        width: 100%;
-        height: 100%;
-    }
-
-    .modal {
-        width: calc(100% - 5rem);
-        height: calc(100% - 3rem);
-        background: white !important;
-        border-radius: 20px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        display: flex;
-        flex-direction: column;
-    }
-
-    .table-grid {
-        width: calc(100% - 30px);
-        height: calc(100% - 30px);
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        background: white !important;
-    }
-
-    .table-row {
-        width: 100%;
-        height: 100%;
-        background: white !important;
-    }
-
-    .left-cell {
-        width: 5%;
-        height: 100%;
-        background: white !important;
-        border-right: 1px solid #f3545a;
-        vertical-align:top;
-        padding-right: 10px
-    }
-
-    .right-cell {
-        width: 95%;
-        height: 100%;
-        background: white !important;
-        padding-left: 10px;
-        vertical-align: top;
-    }
-    .left-cell-content {
-        background: white !important;
-        width: 100%;
-        display: block
-    }
-    .material-symbols-outlined {
-        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-    }
-    .home-icon {
-        background: white !important;
-        color: #6ee7c5;
-        width: 100%;
-        line-height:1.8;
-        border:transparent
-    }
-    .menu-grid {
-        position:relative;
-        top:10px;
-        background: white !important;
-        width: 100%;
-    }
-    .menu-row {
-        background: white !important;
-    }
-    .menu-cell {
-        background: white !important;
-    }
-
-    .right-cell-content {
-        height: 100%;
-        background: white !important;
-        position: relative;
-    }
-    .rootClass {
-        position: absolute;
-        top: 10%;
-        bottom: 5%;
-        height: 85%;
-        width:100%;
-        background: white !important;
-    }
-    .gridTitulo {
-        height: 10%;
-        width: 100%;
-        background: white !important;
-    }
-    .titulo {
-        position: relative;
-        top: 40%;
-        font-size: 40px;
-        background: white !important;
-    }
-</style>

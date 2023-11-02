@@ -1,3 +1,85 @@
-﻿body {
-    background-color: #373540
+﻿@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+body {
+    background-color: #373540;
+    margin: 0;
+}
+
+.content {
+    background: white;
+    width: 90%;
+    height: 80%;
+    margin: 5%;
+    position: absolute;
+    display: flex;
+    flex-direction: column; /* Adicione isso para alinhar o conteúdo verticalmente */
+    justify-content: flex-start; /* Alinhe o conteúdo no topo verticalmente */
+    border-radius: 15px;
+}
+
+.Titulo {
+    width: 100%;
+    height: 10%;
+    text-align: center; /* Centralize o texto horizontalmente */
+    line-height: 2; /* Aumente o espaço entre linhas para centralizar verticalmente */
+    font-size: 20px; /* Tamanho da fonte ajustado */
+    font-family: 'Source Code Pro', monospace;
+    margin-top:2.5%
+}
+
+.Data {
+    width: 100%;
+    height: 80%;
+}
+
+.Linha {
+    width: 100%;
+    height: 100%;
+}
+
+.Esquerda {
+    width: 5%;
+    height: 100%;
+}
+
+.Direita {
+    width: 95%;
+    height: 100%;
+}
+
+.Menu {
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid gray;
+}
+
+.Root {
+    width: 100%;
+    height: 100%;
+}
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24
+}
+.centralize-icon{
+    width:50%;
+    margin-left:25%;
+    border: transparent;
+    background-color: transparent;
+    padding:8px
+}
+.itemLista{
+    width:100%;
+    height:min-content;
+    line-height:4;
+}
+.labelNome {
+    width: 70%;
+    float: left;
+    font-size: 15px;
+    font-family: 'Source Code Pro', monospace;
+    text-indent:35px
+}
+.sectionBotao {
+    width: 30%;
+    float: left;
+    margin-top: 0.5%;
 }

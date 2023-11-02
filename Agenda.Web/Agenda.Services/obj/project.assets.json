@@ -8467,11 +8467,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\autologon\\Source\\Repos\\Agenda\\Agenda.Web\\Agenda.Services\\Agenda.Services.csproj",
+      "projectUniqueName": "C:\\Agenda\\Agenda\\Agenda.Web\\Agenda.Services\\Agenda.Services.csproj",
       "projectName": "Agenda.Services",
-      "projectPath": "C:\\Users\\autologon\\Source\\Repos\\Agenda\\Agenda.Web\\Agenda.Services\\Agenda.Services.csproj",
+      "projectPath": "C:\\Agenda\\Agenda\\Agenda.Web\\Agenda.Services\\Agenda.Services.csproj",
       "packagesPath": "C:\\Users\\autologon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\autologon\\Source\\Repos\\Agenda\\Agenda.Web\\Agenda.Services\\obj\\",
+      "outputPath": "C:\\Agenda\\Agenda\\Agenda.Web\\Agenda.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\autologon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8488,11 +8488,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\autologon\\Source\\Repos\\Agenda\\Agenda.Web\\Agenda.DB\\Agenda.DB.csproj": {
-              "projectPath": "C:\\Users\\autologon\\Source\\Repos\\Agenda\\Agenda.Web\\Agenda.DB\\Agenda.DB.csproj"
+            "C:\\Agenda\\Agenda\\Agenda.Web\\Agenda.DB\\Agenda.DB.csproj": {
+              "projectPath": "C:\\Agenda\\Agenda\\Agenda.Web\\Agenda.DB\\Agenda.DB.csproj"
             },
-            "C:\\Users\\autologon\\Source\\Repos\\Agenda\\Agenda.Web\\Agenda.Web\\Agenda.Web.csproj": {
-              "projectPath": "C:\\Users\\autologon\\Source\\Repos\\Agenda\\Agenda.Web\\Agenda.Web\\Agenda.Web.csproj"
+            "C:\\Agenda\\Agenda\\Agenda.Web\\Agenda.Web\\Agenda.Web.csproj": {
+              "projectPath": "C:\\Agenda\\Agenda\\Agenda.Web\\Agenda.Web\\Agenda.Web.csproj"
             }
           }
         }

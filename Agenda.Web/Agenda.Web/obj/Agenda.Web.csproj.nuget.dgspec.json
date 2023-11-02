@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\autologon\\Source\\Repos\\Agenda\\Agenda.Web\\Agenda.Web\\Agenda.Web.csproj": {}
+    "C:\\Agenda\\Agenda\\Agenda.Web\\Agenda.Web\\Agenda.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\autologon\\Source\\Repos\\Agenda\\Agenda.Web\\Agenda.Web\\Agenda.Web.csproj": {
+    "C:\\Agenda\\Agenda\\Agenda.Web\\Agenda.Web\\Agenda.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\autologon\\Source\\Repos\\Agenda\\Agenda.Web\\Agenda.Web\\Agenda.Web.csproj",
+        "projectUniqueName": "C:\\Agenda\\Agenda\\Agenda.Web\\Agenda.Web\\Agenda.Web.csproj",
         "projectName": "Agenda.Web",
-        "projectPath": "C:\\Users\\autologon\\Source\\Repos\\Agenda\\Agenda.Web\\Agenda.Web\\Agenda.Web.csproj",
+        "projectPath": "C:\\Agenda\\Agenda\\Agenda.Web\\Agenda.Web\\Agenda.Web.csproj",
         "packagesPath": "C:\\Users\\autologon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\autologon\\Source\\Repos\\Agenda\\Agenda.Web\\Agenda.Web\\obj\\",
+        "outputPath": "C:\\Agenda\\Agenda\\Agenda.Web\\Agenda.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\autologon\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DPW9632jcg1e4OLsKsy1b4Iy/CDXOjDaJHcc/p0YgTAFxbs/xoFn/UsaXCXoB7qOkJtn59tVSUfMBQVSBX5oDQ==",
+  "dgSpecHash": "SJgKQSCeKcLY1gc/v/GTUXLikVZuZz0UupaosvvSzpdkTR4AavrbT+16RhzB+pLdDjOB3UzhVkATLFYd5PjdGQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\autologon\\Source\\Repos\\Agenda\\Agenda.Web\\Agenda.Web\\Agenda.Web.csproj",
+  "projectFilePath": "C:\\Agenda\\Agenda\\Agenda.Web\\Agenda.Web\\Agenda.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\autologon\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\autologon\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
